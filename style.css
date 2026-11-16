@@ -1,0 +1,61 @@
+body {
+    background-color: blue;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(178, 74, 251));
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-image: linear-gradient(to right, purple, blue);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 50px;
+    animation: twinkle1 2s infinite alternate;
+}
+
+.fact {
+    background-color: midnightblue;
+    border-radius: 5px;
+    color: white;
+}
+
+.fact h2 {
+    text-align: center;
+    color: lightblue;
+}
+
+.fact mark {
+    background-color: blue;
+    border-radius: 5px;
+    color: greenyellow;
+}
+
+.star {
+    width: 120px;
+    height: 120px;
+    background-color: yellow;
+    border-radius: 50%;
+    animation: twinkle 1s infinite alternate;
+    
+}
+
+@keyframes twinkle {
+    from {background-color: yellow;}
+    to {background-color: rgb(255, 255, 255);}
+}
+
+@keyframes twinkle1 {
+    from {color: white}
+    to {color: rgb(111, 111, 168)}
+}
+
+.footer {
+    text-align: center;
+    color: rgb(172, 158, 158)
+}
+
