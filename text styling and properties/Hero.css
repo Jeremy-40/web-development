@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(to top, red, blue);
+    background-position: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+    font-size: 50px;
+    text-decoration: underline;
+    background-color: red;
+    border-radius: 15px;
+    text-shadow: 1px 1px blue;
+}
+
+.tagline {
+    text-transform: capitalize;
+    background-color: blue;
+    border-radius: 5px;
+    text-shadow: 0.5px 0.5px lightblue;
+}
+
+.label {
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-image: linear-gradient(to left, red, blue);
+    border-radius: 10px;
+}
+
+.power {
+    font-size: 20px;
+    color: red;
+}
+
+.weakness {
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    color: blue;
+}
+
+.badge {
+    font-size: 40px;
+    text-shadow: -1px -1px blue;
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
